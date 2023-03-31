@@ -1,0 +1,118 @@
+:root
+{
+    --main-white: #FFFFFF;
+}
+#active-nav
+{
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 6px;
+    border-left: 10px solid var(--main-white);
+}
+body
+{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.container
+{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.home-page-main
+{
+    background-image: url("../images/medium-images/test.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.main-background
+{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(129, 10, 5, 0.7); 
+    border: 1px solid black;
+}
+.main-navigation
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgba(159, 14, 9, 0.893); 
+    max-width: fit-content;
+    padding: 1rem 2rem;
+    min-height: 100vh;
+}
+.main-navigation
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main-navigation
+ul a
+{
+    color: var(--main-white);
+}
+.main-navigation ul a
+li
+{
+    padding: 10px 50px 10px 10px;
+    border-radius: 6px;
+    border-left: 10px solid rgba(255, 255, 255, 0);
+    transition-duration: 0.3s;
+}
+.main-navigation ul a
+li:hover
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: var(--main-white);
+    transition-duration: 0.3s;
+}
+.logo-image
+{
+    max-width: 82px;
+    max-height: 82px;
+}
+/* Home page container */
+.home-page-slider
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 5rem;
+    margin-top: 15rem;
+}
+/* .home-page-slider p,
+.home-page-slider
+h1,  
+{
+    color: var(--main-white);
+} */
+.home-page-slider,
+.home-page-slider a
+{
+    color: var(--main-white);
+}
+.home-page-slider h1
+{
+    font-size: 40px;
+    line-height: 20px;
+}
+.home-page-slider
+p
+{
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    max-width: 500px;
+}
+.home-page-slider
+a{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 1rem;
+}
+
