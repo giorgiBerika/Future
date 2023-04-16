@@ -1,0 +1,68 @@
+@import "style.css";
+.fifth-external-container
+{
+    width: 100%;
+    padding: 4rem 1rem;
+    background: linear-gradient(90deg, rgba(44,44,48,1) 50%, rgba(0,255,255,1) 50%);
+}
+.fifth-section-inner-container
+{
+    display: flex;
+    align-items: center;
+    transform: translateX(10%);
+    gap: 1rem;
+}
+.fifth-section-left
+div
+{
+    color: var(--main-white);
+}
+.fifth-section-left
+div:nth-child(2)
+{
+    margin: 2rem 0;;
+}
+.fifth-section-left
+div h3
+{
+    font-family: ubunut-regular, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.fifth-section-left
+div p
+{
+    font-family: open-sans-regular, sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+    text-align: left;
+    max-width: 490px;
+}
+.fifth-section-right
+{
+    border: 3px solid var(--main-white);
+    padding: 2rem;
+}
+.fifth-section-right
+{
+    color: var(--main-white);
+}
+.fifth-section-right
+h2
+{
+    font-family: ubuntu-regular, sans-serif;
+    font-size: 36px;
+    text-align: right;
+    margin-bottom: 1.5rem;
+}
+.fifth-section-right
+p
+{
+    font-family: open-sans-regular, sans-serif;
+    font-size: 18px;
+    line-height: 2rem;
+    text-align: right;
+    max-width: 500px;
+}
