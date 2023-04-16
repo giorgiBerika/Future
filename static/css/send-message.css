@@ -1,0 +1,123 @@
+@import "style.css";
+.send-message-external-container
+{
+    /* height: 100vh; */
+}
+.send-message-section
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+}
+.send-message-inner-container
+{
+    /* margin-top: 50%; */
+    /* transform: translateY(-100%); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 4rem;
+    /* background: rgba(89, 195, 144, 0.8); */
+    background: rgba(0, 255, 255, 0.7);
+}
+.send-message-left
+{
+    border-radius: 6px;
+    padding: 1.5rem 0.5rem;
+    background: rgba(57, 91, 88, 0.5);
+}
+.send-message-left
+img
+{
+    max-width: 600px;
+    border-radius: 6px;
+    transform: translateX(10%);
+    transition: 0.3s;
+}
+.send-message-left
+img:hover
+{
+    transition: 0.3s;
+    transform: translateX(15%);
+}
+.send-message-right
+.send-message-form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+    gap: 1.5rem;
+}
+.send-message-form
+div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.send-message-form
+div label
+{
+    font-family: ubuntu-regular;
+    font-size: 1.5rem;
+    color: var(--main-white);
+}
+.send-message-form
+div input
+{
+   border-radius: 6px;
+   width: 30rem;
+   height: 3rem;
+   border: none;
+   padding: 1rem;
+  
+}
+.send-message-form
+textarea
+{
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: none;
+    width: 30rem;
+}
+.send-message-form
+div input:focus-visible,
+.send-message-form
+textarea:focus-visible
+{
+    outline: none;
+}
+.send-message-form
+button
+{
+    align-self: flex-end;
+    font-family: anton-regular, sans-serif;
+    font-weight: 500;
+    color: var(--slate-gray);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: var(--main-white);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+}
+.close-modal
+{
+    align-self: self-start;
+    max-width: 24px;
+    width: 100%;
+    height: 24px;
+    background-image: url("../images/send-message-image/icons/close-white.png");
+}
+.close-modal:hover
+{
+    background-image: url("../images/send-message-image/icons/close-blue.png");
+}
