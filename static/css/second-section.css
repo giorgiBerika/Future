@@ -1,0 +1,118 @@
+@import "style.css";
+.second-section-container
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.second-section-left
+{
+    font-family: ubuntu-regular, sans-serif;
+    text-align: left;
+    padding: 5rem 3rem;
+    width: fit-content;
+    color: var(--slate-gray);
+}
+.second-section-left
+h3
+{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 2rem;
+}
+.second-section-left
+h2
+{
+    font-size: 36px;
+    margin-bottom: 5rem;
+}
+.second-section-left
+h4,
+.second-section-left
+p,
+.second-section-left
+a
+{
+    font-family: open-sans-regular, sans-serif;
+    font-size: 16px;
+}
+.second-section-left
+h4
+{
+    font-weight: 600;
+    line-height: 1.5rem;
+    max-width: 500px;
+    margin-bottom: 5rem;
+}
+.second-section-left
+p
+{
+    max-width: 535px;
+    line-height: 1.7rem;
+    margin-bottom: 5rem;
+    text-align: left;
+
+}
+.second-section-left
+a
+{
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 1rem;
+    color: var(--slate-gray);
+    border: 2px solid var(--main-light-blue);
+    border-radius: 2px;
+    transition-duration: 1s;
+
+}
+.second-section-left
+a:hover
+{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 15px;
+    margin-left: 1.5rem;
+}
+.second-section-right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+.second-section-right
+img
+{
+    max-width: 600px;
+    width: 100%;
+    border-radius: 6px;
+    transition-duration: 1s;
+
+}
+.second-section-right
+img:hover
+{
+    transform: scale(1.05);
+    transition-duration: 1s;
+    overflow-x: hidden;
+}
+@media  screen and (max-width: 1024px) {
+
+    .second-section-container
+    {
+        flex-direction: column;
+        align-items: center;
+
+    }
+   .second-section-left
+   h2
+   {
+    line-height: 3rem;
+    text-align: center;
+
+   }
+
+}
